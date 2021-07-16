@@ -4,7 +4,7 @@ body{
 }
 header{
     width: 100%;
-    height: 20%;
+    height: 10%;
     background-color: aquamarine;
     text-decoration: none;
 }
@@ -41,7 +41,7 @@ h1{
 
 /* top ban */
 
-section{
+.flexible{
     display: flex;
     
 }
@@ -79,4 +79,30 @@ h1{
     background-image: url(dream-bg.png);
     background-repeat: no-repeat;
     background-position: right;
+}
+.head-line{
+    text-align: center;
+    
+}
+.box-1{
+    width: 40%;
+    margin-left: 5%;
+    margin-right: 5%;
+    padding: 20px;
+    box-shadow: 10px 10px 40px gray;
+    border-radius: 10px;
+   
+}
+#school{
+    border-left: 7px solid;
+    border-image: linear-gradient(blue,cyan);
+    border-image-slice: 1;
+}
+#colleage{
+    border-left: 7px solid;
+    border-image: linear-gradient(salmon,tomato);
+    border-image-slice: 1;
+}
+footer p{
+    text-align: center;
 }
